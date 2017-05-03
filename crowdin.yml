@@ -1,0 +1,11 @@
+files:
+  - source: '*.txt'
+    ignore:
+      - /de
+      - /translation
+    translation: /translation/%original_file_name%_%language%.txt
+    languages_mapping:
+      language:
+        de: de_de
+      two_letters_code:
+        es-ES: ES-es
